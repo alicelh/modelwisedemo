@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "start": "gunicorn srver.app:app"
+    "start": "gunicorn server.app:app"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.0.1",
