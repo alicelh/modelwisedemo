@@ -106,7 +106,7 @@ def statisticdistribution(types,df,df2):
     return statistics
 
 
-@app.route("/api/<dataset>/featureinfo",methods=['GET'])
+@app.route("/api/<dataset>/featureinfos",methods=['GET'])
 def get_featureinfo(dataset):
     start_time = time.time()
     types = pd.read_csv(SITE_ROOT+'/db/'+dataset+'/featuretypes.csv')
